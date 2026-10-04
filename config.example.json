@@ -1,0 +1,15 @@
+{
+  "server": "wss://your-railway-app.up.railway.app/ws",
+  "token": "paste-token-shown-on-the-web-panel",
+  "listen": "127.0.0.1:1819",
+  "max_sessions": 512,
+  "udp_enabled": true,
+  "tcp_enabled": true,
+  "insecure_skip_tls": false,
+  "verbose": false,
+  "heartbeat_interval": "20s",
+  "reconnect_min": "1s",
+  "reconnect_max": "30s",
+  "open_timeout": "10s",
+  "log_file": ""
+}
